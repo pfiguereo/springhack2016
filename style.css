@@ -1,0 +1,50 @@
+h1{
+	color: white;  
+   background: url("http://i.imgur.com/KFINO.gif") no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+	font-size:90px;
+	background-repeat:repeat;
+} 
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    color:white;
+    font-size:40px;
+}
+
+.bg_icon  {
+    height: 100px;
+    display: inline-block;
+    margin: 2px 5px;
+}
+
+#backgrounds{
+      border: 7px solid black;
+      height: 100px;
+      width: 1280px;
+      overflow-y: scroll;
+}
+
+
+.cb {
+    clear:both;
+}
+
+button {
+    border: 1px solid;
+    
+}
+
+.main_container .canvas-container {
+    float:left;
+}
+
+.action_buttons {
+    width: 210px;
+    float: right;
+}

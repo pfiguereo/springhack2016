@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.6.2/fabric.min.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-image: url("./Images/Stars.gif")
+        }
+    </style>
+    
+</head>
+
+<body>
+    <center>
+        <h1>Styling With the Stars: Election Edition</h1>
+        <p>Choose a politician to begin their presidential dress-up</p>
+        <div class="container">
+            <div class="row">
+                <a href="builder.html?celebrity=trump" class="col-xs-4" data-toggle="tooltip" title=" Born in the deserted fields of Missouri, Donald Trump represents the country's old desire for an agrarian society. He advocates for chicken's rights and agriculture. His favorite color is pink and he loves spending time at the beach.">
+                    <img class="img-responsive img-circle" src="http://graphics.wsj.com/elections/2016/people-and-places/img/donald_trump-md.png">
+                </a>
+                <a href="builder.html?celebrity=clinton" class="col-xs-4" data-toggle="tooltip" title="Hillary has made her name in history despite dropping out of one of the best colleges, Bronx Community College, in 1835.">
+                    <img class="img-responsive img-circle" src="http://graphics.wsj.com/elections/2016/people-and-places/img/hillary_clinton-md.png">
+                </a>
+                <a href="builder.html?celebrity=kasich"  class="col-xs-4" data-toggle="tooltip" title="??? Who Dat???">
+                    <img class="img-responsive img-circle" src="http://graphics.wsj.com/libs/images/wsj/wsj-election-16/headcuts/john_kasich-md.png">
+                </a>
+            </div>
+            <div class="row">
+                <a href="builder.html?celebrity=sanders"  class="col-xs-4" data-toggle="tooltip" title="The famous phrase: 'Feel the Bern' has much more meaning when people learn that Sanders grew up in Miami, FL. As a teenager, Sanders spent much of his free time playing with animals and attending work parties.">
+                    <img class="img-responsive img-circle" src="http://graphics.wsj.com/elections/2016/people-and-places/img/bernie_sanders-md.png"></a>
+                <a href="builder.html?celebrity=cruz"  class="col-xs-4" data-toggle="tooltip" title="We have had many Ted's in the history of presidents of the US...but this Ted is different than the others. Ted enjoys heated debates and does not tolerate watching people dance or sing around him.">
+                    <img class="img-responsive img-circle" src="http://graphics.wsj.com/elections/2016/people-and-places/img/ted_cruz-md.png">
+                </a>
+                <a href="builer.html?celebrity=rubio"  class="col-xs-4" data-toggle="tooltip" title="Mr. Rubio is far from being 'rubio'...with his dark brown hair and his unusual suits Rubio shows his enthusiasm for change and being different.">
+                    <img class="img-responsive img-circle" src="./Images/Rubio.png">
+                </a>
+            </div>
+        </div>
+    </center>
+    <audio controls autoplay>
+           <source src="aVbGIiMMptxS.128.mp3" type="audio/mpeg">
+</body>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+
+</html>

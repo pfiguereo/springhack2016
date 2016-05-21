@@ -25,9 +25,14 @@ p{
 
 #backgrounds{
       border: 7px solid black;
-      height: 100px;
       width: 1280px;
-      overflow-y: scroll;
+      overflow: scroll;
+      height: 100px;
+}
+
+#backgrounds .bg_container {
+    height: 100px;
+    width: 2500px;
 }
 
 
